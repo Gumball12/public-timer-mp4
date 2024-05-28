@@ -14,3 +14,11 @@ This command generates a video with a white background and a timer that incremen
 - `timer.mp4`: The name of the output video file.
 
 By running this command, you will get a 60-second video where the number displayed increases by 1 every 0.1 seconds, resulting in the number "10" appearing exactly at the 1-second mark, "20" at the 2-second mark, and so on until "600" at the 60-second mark.
+
+This video file can be used in HTML as shown below:
+
+```html
+<video src="https://cdn.jsdelivr.net/gh/Gumball12/public-timer-mp4/timer.mp4" controls>
+```
+
+By embedding the video in this way, you can display the timer video on a webpage, complete with video controls for play, pause, and volume adjustments.
